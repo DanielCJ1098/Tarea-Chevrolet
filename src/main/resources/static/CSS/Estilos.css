@@ -1,0 +1,61 @@
+#encabezado {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8%;
+    width: 100%;
+    background-color: #496D8D;
+    color: white;
+}
+#encabezado h1 {
+    display: inline;
+}
+.descripcion {
+    font-size: 18px;
+}
+
+#barraLateral {
+    position: absolute;
+    top: 12%;
+    left: 0;
+    height: 81%;
+    width: 20%;
+    background-color: darkslategrey;
+    color: White;
+}
+#contenido {
+    position: absolute;
+    top: 12%;
+    left: 20%;
+    height: 81%;
+    width: 80%;
+    background-color: darkgrey;
+    color: black;
+    overflow: auto;
+}
+#piePagina {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 7%;
+    width: 100%;
+    background-color: #cccccc;
+    color: black;
+    text-align: center;
+}
+#encabezadoTabla {
+    font-size: 20px;
+    background-color: blue;
+    color: yellow;
+}
+#tablaResumen tr {
+    font-size: 25px;
+}
+#tablaResumen tr:nth-child(odd) {
+    background-color: coral;
+    color: white;
+}
+#tablaResumen tr:nth-child(even) {
+    background-color: white;
+    color: #87f29b;
+}
