@@ -22,6 +22,7 @@
     width: 20%;
     background-color: darkslategrey;
     color: White;
+    padding: 10px;
 }
 #contenido {
     position: absolute;
@@ -32,6 +33,7 @@
     background-color: darkgrey;
     color: black;
     overflow: auto;
+    padding: 10px;
 }
 #piePagina {
     position: absolute;
@@ -39,7 +41,7 @@
     left: 0;
     height: 7%;
     width: 100%;
-    background-color: #cccccc;
+    background-color: darkgrey;
     color: black;
     text-align: center;
 }
